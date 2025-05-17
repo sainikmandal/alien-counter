@@ -16,4 +16,6 @@ function save() {
     saveString = count + " - "
     saveEl.textContent += saveString
     console.log(count)
+    countEl.innerText = 0
+    count = 0
 }
